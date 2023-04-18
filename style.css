@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background:#c5e9f3;
+ 
+}
+.container{
+    position: relative;
+   width:100%;
+     height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+
+}
+.calculator{
+    background: rgb(26, 24, 24);
+    padding: 30px;
+    border-radius: 20px;
+ 
+
+}
+.calculator form input{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: transparent;
+    cursor: pointer;
+    font-size: 22px;
+    border: 0;
+    outline: 0;
+    margin: 10PX;
+    color: rgb(36, 166, 36);
+    
+    border: 1px solid white;
+    box-shadow: -8px -8px 15px rgb(255,255,255,0.2);
+}
+
+form .display{
+   display: flex;
+   justify-content: flex-end;
+   margin: 20px 0;
+   color: aqua;
+
+  
+}
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+    border-radius: 0%;
+    padding: 45px;
+    border:2px solid white ;
+    
+    
+}
+/* .box{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box::before{
+    content: '';
+    position: absolute;
+    width: 170px;
+    height: 140% ;
+    background: linear-gradient(#00ccff,#d500f9);
+    animation: rotate 4s linear infinite;
+
+
+}
+.box::after{
+    content: '';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     position: absolute; 
+      background-color:transparent;
+    inset-block-start: 2px;
+    border-radius: 16px;
+inset: 5px;
+
+}
+
+@keyframes rotate{
+    from {
+        transform: rotate(0deg);
+
+    }
+    to{
+        transform:rotate(360deg) ;
+    }
+}  */
+form input.equal{
+    color: aqua;
+    border: 3px solid orange;
+}
+
+form input.operator{
+    color: aqua;
+}
